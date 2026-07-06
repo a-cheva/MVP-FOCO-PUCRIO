@@ -1,14 +1,28 @@
-# Foco — Aplicativo de Produtividade com Foco Intencional
+Claro! Tem algumas coisas para corrigir para ficar consistente com o projeto:
 
-> Trabalho de MVP — Pós-Graduação em Design de Produto Digital | PUC-Rio
+1. **Não mencionar "Matriz de Eisenhower"** — no relatório você usa "classificação automática por urgência e importância"
+2. **Não mencionar "Pomodoro"** — no relatório não usamos esse termo
+3. **Link do Figma** — está apontando para o arquivo antigo, deveria ser o da conta Pro
+4. **Mariana** — a descrição está imprecisa
+
+Aqui está o README corrigido:
+
+---
+
+```markdown
+# Foco — Aplicativo Mobile de Produtividade
+
+> MVP — Pós-Graduação em Interação Humano-Computador | PUC-Rio | 2026
 
 ---
 
 ## Sobre o Projeto
 
-**Foco** é um aplicativo mobile de produtividade que combina a Matriz de Eisenhower com sessões de foco no estilo Pomodoro, bloqueio de apps distraidores e análise de desempenho semanal.
+**Foco** é um aplicativo mobile de produtividade projetado para pessoas que enfrentam dificuldades de organização e procrastinação no dia a dia. Diferente de ferramentas tradicionais, o Foco é construído sobre um princípio de simplicidade intencional: menos funcionalidades, mais direcionamento.
 
-O projeto foi desenvolvido como MVP (Minimum Viable Product) no contexto da disciplina de Pós-Graduação, com foco em pesquisa de usuário, modelagem de interação (MoLIC) e prototipagem de alta fidelidade no Figma.
+O app combina classificação automática de tarefas por urgência e importância, três categorias de vida fixas (Trabalho, Casa e Estudos) e um Modo Foco Total com bloqueio seletivo de aplicativos distratores durante sessões de concentração.
+
+O projeto foi desenvolvido como MVP no contexto da disciplina de Projeto de Interação, com foco em pesquisa de usuário, modelagem de interação (MoLIC) e prototipagem de alta fidelidade no Figma com Material Design 3.
 
 ---
 
@@ -16,27 +30,47 @@ O projeto foi desenvolvido como MVP (Minimum Viable Product) no contexto da disc
 
 | Persona | Perfil |
 |---|---|
-| **Rafael Hoseok** | 32 anos, analista financeiro,faz entregas noturnas como renda complementar. Luta com procrastinação e sobrecarga de tarefas. |
-| **Mariana Santos** | 28 anos, designer freelancer. Gerencia múltiplos projetos simultaneamente e precisa de uma forma rápida de organizar tarefas ad hoc. |
+| **Mariana Santos** | 28 anos, analista de RH, home office integral. Padrão de procrastinação: dispersão por início — começa várias tarefas ao mesmo tempo mas não termina nenhuma. |
+| **Rafael Hoseok** | 32 anos, eletricista autônomo + universitário + entregas noturnas. Padrão de procrastinação: evitação seletiva — está sempre ocupado, mas nunca com o que precisa. |
 
 ---
 
-## Fluxos Principais
+## Objetivos de Interação (MoLIC)
 
-- **Fluxo Rafael** — Modo Foco: Ver tarefas → Escolher tarefa → Configurar sessão → Sessão em andamento → Conquista
-- **Fluxo Mariana** — Adicionar Tarefa: Modo rápido / Modo detalhado → Classificação automática por quadrante
+- **Objetivo 1 — Mariana:** Adicionar e classificar uma tarefa (modo rápido ou detalhado → classificação automática por prioridade)
+- **Objetivo 2 — Rafael:** Configurar e iniciar uma sessão de Modo Foco Total (via lembrete 19h → escolher tarefa → configurar sessão → sessão em andamento → conquista)
+
+---
+
+## Fluxo do Protótipo (Objetivo 2 — Rafael)
+
+```
+Ver tarefas do dia
+  ↓
+Escolher tarefa  →  [2.1] Ver aviso de tarefa indisponível
+  ↓
+Focar em uma tarefa
+  ↓
+Configurar sessão  →  [4.1] Ver erro de bloqueio
+  ↓        ↓
+  ↓    Configurar recorrência
+  ↓
+Sessão em andamento  →  [6.1] Sessão sem bloqueio
+  ↓
+Ver conquista
+```
 
 ---
 
 ## Protótipo Figma
 
-🔗 [Acessar protótipo no Figma](https://www.figma.com/design/LEwe9XCah4txAFH90eHzYX)
+🔗 [Acessar protótipo no Figma] (https://www.figma.com/proto/1JznLsYo0QxFU40GqzPIjR/MVP---Foco---Andrieli-Cheva?node-id=182-1414&viewport=755%2C25%2C0.04&t=SLNnjMXVz1J00ChY-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=182%3A1414&show-proto-sidebar=1&page-id=0%3A1))
 
 O arquivo contém:
 - Personas e diagrama MoLIC
-- Style Guide (tokens de cor, tipografia MD3)
+- Style Guide (tipografia, paleta de cores)
 - Biblioteca de componentes Material Design 3
-- 12 telas do fluxo completo (MD3 final)
+- 10 telas do fluxo completo com labels MoLIC
 - Seção de componentes organizados por grupo
 
 ---
@@ -44,41 +78,40 @@ O arquivo contém:
 ## Estrutura do Repositório
 
 ```
-MVP-FOCO-PUCRIO/
+foco-app-mvp/
 ├── README.md
 ├── relatorio/
-│   └── relatorio-mvp-foco.pdf       # Relatório completo do MVP
+│   └── relatorio-mvp-foco.pdf
 └── molic/
-    └── diagrama-molic-foco.pdf      # Diagrama MoLIC exportado
+    └── diagrama-molic-foco.pdf
 ```
 
 ---
 
-## Tecnologias e Metodologias
+## Design System e Metodologia
 
 - **Design System:** Material Design 3 (MD3)
-- **Ferramenta de design:** Figma
-- **Modelagem de interação:** MoLIC (Model of Interaction as Language)
-- **Método de priorização:** Matriz de Eisenhower
-- **Técnica de foco:** Pomodoro adaptado
+- **Ferramenta:** Figma
+- **Modelagem de interação:** MoLIC (Model of Interaction as Language-based Conversation)
+- **Classificação de tarefas:** Urgência × Importância (automática pelo sistema)
 
 ---
 
-## Como Usar o Protótipo
+## Como navegar no protótipo
 
 1. Acesse o link do Figma acima
-2. No menu superior, clique em **"Present"** (▶) para ver o protótipo navegável
-3. Navegue pelo fluxo começando pela tela **"01 · Ver tarefas do dia"**
+2. Clique em **Present** (▶) no menu superior
+3. Comece pela tela **"01 · Ver tarefas do dia"**
 
 ---
 
 ## Autora
 
 **Andrieli Cheva**
-Pós-Graduação em Design de Produto Digital — PUC-Rio
+Pós-Graduação em Interação Humano-Computador — PUC-Rio
 📧 a.cheva7082@gmail.com
-🔗 [GitHub](https://github.com/a-cheva)
+```
 
 ---
 
-*Repositório criado como entrega acadêmica. Todos os direitos reservados.*
+Só lembra de substituir `[inserir link aqui]` pelo link real do Figma antes de colar no GitHub!
