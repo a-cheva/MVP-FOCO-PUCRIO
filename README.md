@@ -1,4 +1,4 @@
-markdown# Foco — Aplicativo Mobile de Produtividade
+Foco — Aplicativo Mobile de Produtividade
 
 > MVP — Pós-Graduação em Interação Humano-Computador | PUC-Rio | 2026
 
