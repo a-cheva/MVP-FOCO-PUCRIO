@@ -1,12 +1,3 @@
-Claro! Tem algumas coisas para corrigir para ficar consistente com o projeto:
-
-1. **Não mencionar "Matriz de Eisenhower"** — no relatório você usa "classificação automática por urgência e importância"
-2. **Não mencionar "Pomodoro"** — no relatório não usamos esse termo
-3. **Link do Figma** — está apontando para o arquivo antigo, deveria ser o da conta Pro
-4. **Mariana** — a descrição está imprecisa
-
-Aqui está o README corrigido:
-
 ---
 
 ```markdown
