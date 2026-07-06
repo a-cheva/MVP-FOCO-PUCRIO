@@ -1,7 +1,4 @@
-
-
-```markdown
-# Foco — Aplicativo Mobile de Produtividade
+markdown# Foco — Aplicativo Mobile de Produtividade
 
 > MVP — Pós-Graduação em Interação Humano-Computador | PUC-Rio | 2026
 
@@ -34,28 +31,25 @@ O projeto foi desenvolvido como MVP no contexto da disciplina de Projeto de Inte
 ---
 
 ## Fluxo do Protótipo (Objetivo 2 — Rafael)
-
-```
 Ver tarefas do dia
-  ↓
+↓
 Escolher tarefa  →  [2.1] Ver aviso de tarefa indisponível
-  ↓
+↓
 Focar em uma tarefa
-  ↓
+↓
 Configurar sessão  →  [4.1] Ver erro de bloqueio
-  ↓        ↓
-  ↓    Configurar recorrência
-  ↓
+↓              ↘
+↓          Configurar recorrência
+↓
 Sessão em andamento  →  [6.1] Sessão sem bloqueio
-  ↓
+↓
 Ver conquista
-```
 
 ---
 
 ## Protótipo Figma
 
-🔗 [Acessar protótipo no Figma] https://www.figma.com/proto/1JznLsYo0QxFU40GqzPIjR/MVP---Foco---Andrieli-Cheva?node-id=182-1414&viewport=755%2C25%2C0.04&t=SLNnjMXVz1J00ChY-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=182%3A1414&show-proto-sidebar=1&page-id=0%3A1)
+🔗 [Acessar protótipo no Figma](https://www.figma.com/proto/1JznLsYo0QxFU40GqzPIjR/MVP---Foco---Andrieli-Cheva?node-id=182-1414&viewport=755%2C25%2C0.04&t=SLNnjMXVz1J00ChY-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=182%3A1414&show-proto-sidebar=1&page-id=0%3A1)
 
 O arquivo contém:
 - Personas e diagrama MoLIC
@@ -67,15 +61,12 @@ O arquivo contém:
 ---
 
 ## Estrutura do Repositório
-
-```
 foco-app-mvp/
 ├── README.md
 ├── relatorio/
 │   └── relatorio-mvp-foco.pdf
 └── molic/
-    └── diagrama-molic-foco.pdf
-```
+└── diagrama-molic-foco.pdf
 
 ---
 
