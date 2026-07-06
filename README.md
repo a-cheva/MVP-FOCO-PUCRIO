@@ -102,7 +102,3 @@ foco-app-mvp/
 Pós-Graduação em Interação Humano-Computador — PUC-Rio
 📧 a.cheva7082@gmail.com
 ```
-
----
-
-Só lembra de substituir `[inserir link aqui]` pelo link real do Figma antes de colar no GitHub!
