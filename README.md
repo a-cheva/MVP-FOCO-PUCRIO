@@ -16,7 +16,7 @@ O projeto foi desenvolvido como MVP (Minimum Viable Product) no contexto da disc
 
 | Persona | Perfil |
 |---|---|
-| **Rafael Hoseok** | 32 anos, analista financeiro, pai de 1 filho, faz entregas noturnas como renda complementar. Luta com procrastinação e sobrecarga de tarefas. |
+| **Rafael Hoseok** | 32 anos, analista financeiro,faz entregas noturnas como renda complementar. Luta com procrastinação e sobrecarga de tarefas. |
 | **Mariana Santos** | 28 anos, designer freelancer. Gerencia múltiplos projetos simultaneamente e precisa de uma forma rápida de organizar tarefas ad hoc. |
 
 ---
