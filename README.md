@@ -55,7 +55,7 @@ Ver conquista
 
 ## Protótipo Figma
 
-🔗 [Acessar protótipo no Figma] (https://www.figma.com/proto/1JznLsYo0QxFU40GqzPIjR/MVP---Foco---Andrieli-Cheva?node-id=182-1414&viewport=755%2C25%2C0.04&t=SLNnjMXVz1J00ChY-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=182%3A1414&show-proto-sidebar=1&page-id=0%3A1))
+🔗 [Acessar protótipo no Figma] https://www.figma.com/proto/1JznLsYo0QxFU40GqzPIjR/MVP---Foco---Andrieli-Cheva?node-id=182-1414&viewport=755%2C25%2C0.04&t=SLNnjMXVz1J00ChY-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=182%3A1414&show-proto-sidebar=1&page-id=0%3A1)
 
 O arquivo contém:
 - Personas e diagrama MoLIC
